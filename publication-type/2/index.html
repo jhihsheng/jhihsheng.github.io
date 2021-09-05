@@ -257,6 +257,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YS6X4M0WBE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-YS6X4M0WBE', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -304,7 +343,7 @@
     <meta property="twitter:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hant" />
   
     
-      <meta property="og:updated_time" content="2020-01-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2021-02-01T00:00:00&#43;00:00" />
     
   
 
@@ -481,10 +520,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/publication"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Highlights</span></a>
         </li>
 
         
@@ -513,6 +559,36 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/team"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pub_list"><span>Publication</span></a>
         </li>
 
         
@@ -701,11 +777,233 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/example/" >Topological Spaser</a>
+      <a href="/publication/2021_acsp_ttns/" >Topological Nanospaser</a>
     </div>
 
     
-    <a href="/publication/example/"  class="summary-link">
+    <a href="/publication/2021_acsp_ttns/"  class="summary-link">
+      <div class="article-style">
+        We theoretically study a topological nanospaser, which consists of a silver nanospheroid and MoS$_2$ monolayer flake of a circular …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      吳致盛</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1021/acsphotonics.0c01919" target="_blank" rel="noopener">
+    DOI</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2021_acsp_ttns/" >
+      <img src="/publication/2021_acsp_ttns/featured_hu5aa2de781f8c1b9f93400d156349dc32_229443_150x0_resize_lanczos_3.png" alt="Topological Nanospaser" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2020_np_tns/" >Topological Nanospaser</a>
+    </div>
+
+    
+    <a href="/publication/2020_np_tns/"  class="summary-link">
+      <div class="article-style">
+        We propose a nanospaser made of an achiral plasmonic–metal nanodisk and a two-dimensional chiral gain medium – a monolayer nanoflake of …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      吳致盛</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1515/nanoph-2019-0496" target="_blank" rel="noopener">
+    DOI</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2020_np_tns/" >
+      <img src="/publication/2020_np_tns/featured_hua91a7b760cb10092b3660e8617ff03b8_76606_150x0_resize_q75_lanczos.jpg" alt="Topological Nanospaser" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2020_prl_ts/" >Topological Spaser</a>
+    </div>
+
+    
+    <a href="/publication/2020_prl_ts/"  class="summary-link">
       <div class="article-style">
         We theoretically introduce a topological spaser, which consists of a hexagonal array of plasmonic metal nanoshells containing an …
       </div>
@@ -743,7 +1041,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/example/TS.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/2020_PRL_TS/TS.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -771,8 +1069,8 @@
     
     
     
-    <a href="/publication/example/" >
-      <img src="/publication/example/featured_hu136b507fc079776d5bd33fa0ab06f9dd_194924_150x0_resize_lanczos_3.png" alt="Topological Spaser" loading="lazy">
+    <a href="/publication/2020_prl_ts/" >
+      <img src="/publication/2020_prl_ts/featured_hu136b507fc079776d5bd33fa0ab06f9dd_194924_150x0_resize_lanczos_3.png" alt="Topological Spaser" loading="lazy">
     </a>
     
   </div>

@@ -257,6 +257,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YS6X4M0WBE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-YS6X4M0WBE', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -304,7 +343,7 @@
     <meta property="twitter:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hant" />
   
     
-      <meta property="og:updated_time" content="2020-01-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2021-02-01T00:00:00&#43;00:00" />
     
   
 
@@ -481,10 +520,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/publication"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Highlights</span></a>
         </li>
 
         
@@ -513,6 +559,36 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/team"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pub_list"><span>Publication</span></a>
         </li>
 
         
@@ -721,7 +797,7 @@
     
       
     
-    Jan 1, 2020
+    Feb 1, 2021
   </span>
   
 

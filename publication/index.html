@@ -257,6 +257,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YS6X4M0WBE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-YS6X4M0WBE', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -304,7 +343,7 @@
     <meta property="twitter:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hant" />
   
     
-      <meta property="og:updated_time" content="2020-01-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2021-02-01T00:00:00&#43;00:00" />
     
   
 
@@ -481,10 +520,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/publication"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Highlights</span></a>
         </li>
 
         
@@ -513,6 +559,36 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/team"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pub_list"><span>Publication</span></a>
         </li>
 
         
@@ -687,6 +763,12 @@
         
         
       
+        
+        
+      
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -710,6 +792,10 @@
             
             
             
+            <option value=".year-2021">
+              2021
+            </option>
+            
             <option value=".year-2020">
               2020
             </option>
@@ -726,27 +812,397 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2020">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2021">
           
             
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
 
   
   
-
-  <span class="article-metadata li-cite-author">
+  
+  
+  <div>
     
 
   <span >
       吳致盛</span>
-  </span>
-  (2020).
-  <a href="/publication/example/">Topological Spaser</a>.
-  In <em>Physical Review Letter</em>.
+  </div>
   
-  <p>
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    February 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      In <em>ACS Photonics</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/2021_acsp_ttns/">
+    <div class="img-hover-zoom"><img src="/publication/2021_acsp_ttns/featured_hu5aa2de781f8c1b9f93400d156349dc32_229443_808x455_fill_lanczos_smart1_3.png" class="article-banner" alt="Topological Nanospaser" loading="lazy"></div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/2021_acsp_ttns/">Topological Nanospaser</a>
+  </div>
+
+  
+  <a href="/publication/2021_acsp_ttns/" class="summary-link">
+    <div class="article-style">
+      <p>We theoretically study a topological nanospaser, which consists of a silver nanospheroid and MoS$_2$ monolayer flake of a circular shape. The metal nanospheroid acts as a plasmonic nanoresonator that supports two rotating modes, which are coupled to the corresponding valleys of MoS2. We apply external circularly polarized light that selectively pumps only one of the valleys of MoS$_2$. The generated spaser dynamics strongly depends on the size (radius) of the MoS$_2$ nanoflake. For a small radius, the system has only one spasing regime when only the chirally matched plasmon mode is generated, while at a larger size of MoS$_2$, depending on the pump intensity, there are two regimes. In one regime, only the chirally matched plasmon mode is generated, while in the other regime both chirally matched and chirally mismatched modes exist. Different regimes of spaser operation also have opposite handedness of the far-field radiated spaser system. Such a topological nanospaser has potential applications in different areas of infrared spectroscopy, sensing, probing, and biomedical treatment.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1021/acsphotonics.0c01919" target="_blank" rel="noopener">
+    DOI</a>
+
+
+  </div>
+  
+
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2020">
+          
+            
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      吳致盛</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    April 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      In <em>Nanophotonics</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/2020_np_tns/">
+    <div class="img-hover-zoom"><img src="/publication/2020_np_tns/featured_hua91a7b760cb10092b3660e8617ff03b8_76606_808x455_fill_q75_lanczos_smart1.jpg" class="article-banner" alt="Topological Nanospaser" loading="lazy"></div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/2020_np_tns/">Topological Nanospaser</a>
+  </div>
+
+  
+  <a href="/publication/2020_np_tns/" class="summary-link">
+    <div class="article-style">
+      <p>We propose a nanospaser made of an achiral plasmonic–metal nanodisk and a two-dimensional chiral gain medium – a monolayer nanoflake of a transition-metal dichalcogenide (TMDC). When one valley of the TMDC is selectively pumped (e.g. by a circular-polarized radiation), the spaser (surface plasmon amplification by stimulated emission of radiation) generates a mode carrying a topological chiral charge that matches that of the gain valley. There is another, chirally mismatched, time-reversed mode with exactly the same frequency but the opposite topological charge; it is actively suppressed by the gain saturation and never generates, leading to a strong topological protection for the generating matched mode. This topological spaser is promising for use in nano-optics and nanospectroscopy in the near field especially in applications to biomolecules that are typically chiral. Another potential application is a chiral nanolabel for biomedical applications emitting in the far field an intense circularly polarized coherent radiation.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1515/nanoph-2019-0496" target="_blank" rel="noopener">
+    DOI</a>
+
+
+  </div>
+  
+
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2020">
+          
+            
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      吳致盛</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      In <em>Physical Review Letter</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/2020_prl_ts/">
+    <div class="img-hover-zoom"><img src="/publication/2020_prl_ts/featured_hu136b507fc079776d5bd33fa0ab06f9dd_194924_808x455_fill_lanczos_smart1_3.png" class="article-banner" alt="Topological Spaser" loading="lazy"></div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/2020_prl_ts/">Topological Spaser</a>
+  </div>
+
+  
+  <a href="/publication/2020_prl_ts/" class="summary-link">
+    <div class="article-style">
+      <p>We theoretically introduce a topological spaser, which consists of a hexagonal array of plasmonic metal nanoshells containing an achiral gain medium in their cores.  Such a spaser can generate two mutually time-reversed chiral surface plasmon modes in the valleys $K$ and $K'$, which carry the opposite topological charges $\pm 1$, and are described by a two-dimensional $E'$ representation of the $D_{3h}$ point symmetry group. Due to the mode competition, this spaser exhibits a bistability$:$ only one of these two modes generates, which is a spontaneous symmetry breaking. Such a spaser can be used for an ultrafast all-optical memory and information processing, and biomedical detection and sensing with chirality resolution.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
 
 
 
@@ -761,7 +1217,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/example/TS.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/2020_PRL_TS/TS.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -780,10 +1236,10 @@
 
 
 
-</p>
 
+  </div>
   
-  
+
 </div>
 
           
