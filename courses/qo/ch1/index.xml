@@ -107,5 +107,69 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;/details&gt;</description>
     </item>
     
+    <item>
+      <title>Phase States</title>
+      <link>https://jhihsheng.github.io/courses/qo/ch1/plot_phase_states/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/courses/qo/ch1/plot_phase_states/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+# Data for plotting
+phi1 = 0.5 * np.pi
+phi2 = 0.7 * np.pi
+Nmax = 30
+phi = np.arange(0.0, 2.0 * np.pi, 0.01)
+# define the phase distribution function 
+def phase_dist_func(x,y):
+    return np.sin(Nmax*(x-y)/2)**2./np.sin((x-y)/2)**2/Nmax/(2*np.pi)
+phase_dist_1 = phase_dist_func(phi,phi1)
+phase_dist_2 = phase_dist_func(phi,phi2)
+## plot
+fig, ax = plt.subplots()
+ax.plot(phi, phase_dist_1,label=r&#39;$|\phi_1=0.5\pi\rangle$&#39;) 
+## r: raw string
+ax.plot(phi, phase_dist_2,label=r&#39;$|\phi_2=0.7\pi\rangle$&#39;) 
+## r: raw string
+ax.set(xlabel=&#39;$\phi$ &#39;, ylabel=&#39;$\mathcal{P}(\phi)$&#39;,
+       title=&#39;Phase Distribution Function of a Phase State&#39;)
+ax.grid()
+plt.legend()
+fig.savefig(&amp;quot;phase_dist.png&amp;quot;, dpi=300,facecolor=&#39;white&#39;, transparent=False)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /media/output_0_1_hufd834839036becc158b5d453c2e0787e_29444_e76650b6f6b34e512feaed2ff4c4dfd6.png 400w,
+               /media/output_0_1_hufd834839036becc158b5d453c2e0787e_29444_ebfc2250bfb66d69e2b58a72b0d83c19.png 760w,
+               /media/output_0_1_hufd834839036becc158b5d453c2e0787e_29444_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://jhihsheng.github.io/media/output_0_1_hufd834839036becc158b5d453c2e0787e_29444_e76650b6f6b34e512feaed2ff4c4dfd6.png&#34;
+               width=&#34;533&#34;
+               height=&#34;395&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
