@@ -13,6 +13,196 @@
     </image>
     
     <item>
+      <title>Python basics</title>
+      <link>https://jhihsheng.github.io/courses/qo/ch1/python/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/courses/qo/ch1/python/</guid>
+      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
+&lt;li&gt;Slower than tuples&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tuples&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
+&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
+  &lt;p&gt;Yes&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Python basics</title>
+      <link>https://jhihsheng.github.io/courses/qo/ch2/python/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/courses/qo/ch2/python/</guid>
+      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
+&lt;li&gt;Slower than tuples&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tuples&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
+&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
+  &lt;p&gt;Yes&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>https://jhihsheng.github.io/courses/qo/ch1/visualization/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/courses/qo/ch1/visualization/</guid>
+      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
+  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
+data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
+fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
+fig.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>https://jhihsheng.github.io/courses/qo/ch2/visualization/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/courses/qo/ch2/visualization/</guid>
+      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
+  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
+data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
+fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
+fig.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://jhihsheng.github.io/courses/qo/ch1/stats/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/courses/qo/ch1/stats/</guid>
+      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
+&lt;p&gt;$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The parameter $\mu$ is the mean or expectation of the distribution.
+$\sigma$ is its standard deviation.
+The variance of the distribution is $\sigma^{2}$.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
+  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://jhihsheng.github.io/courses/qo/ch2/stats/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/courses/qo/ch2/stats/</guid>
+      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
+&lt;p&gt;$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The parameter $\mu$ is the mean or expectation of the distribution.
+$\sigma$ is its standard deviation.
+The variance of the distribution is $\sigma^{2}$.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
+  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>https://jhihsheng.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -37,73 +227,117 @@
       <link>https://jhihsheng.github.io/pub_list/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://jhihsheng.github.io/pub_list/</guid>
-      <description>&lt;h2 id=&#34;最新著作請至-google-scholarhttpsscholargooglecomcitationshlzh-twuserkxggahaaaaajview_oplist_workssortbypubdate&#34;&gt;最新著作請至 &lt;a href=&#34;https://scholar.google.com/citations?hl=zh-TW&amp;amp;user=kXggAHAAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Scholar&lt;/a&gt;&lt;/h2&gt;
-&lt;h2 id=&#34;heading&#34;&gt;$~~$&lt;/h2&gt;
+      <description>&lt;p&gt;最新著作請至 &lt;a href=&#34;https://scholar.google.com/citations?hl=zh-TW&amp;amp;user=kXggAHAAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Jhih-Sheng Wu, Vadym Apalkov, Mark I. Stockman, Topological Spaser, Phys. Rev. Lett. 124, 017701 (2020) Impact Factor: 9.227&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Rupesh Ghimire, Jhih-Sheng Wu, Vadym Apalkov, Mark I. Stockman, Topological Nanospaser,
 arXiv:1911.03523 (2019)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Fatemeh Nematollahi, S Motlagh,Jhih-Sheng Wu, Vadym Apalkov, Mark Stockman Topological prop-
 erties of Weyl semimetals in circularly-polarized ultrafast laser field, arXiv:1903.01657 (2019)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;Jhih-Sheng Wu, Yen-Cheng Lin, Yae-Lin Sheu, Liang-Yan Hsu, Characteristic Distance of Resonance
 Energy Transfer Coupled with Surface Plasmon Polaritons, J. Phy. Chem. Lett. 9 (24), 7032-7039 (2018)
 Impact Factor: 7.329&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;S. Azar Oliaei Motlagh, Jhih-Sheng Wu, Vadym Apalkov, and Mark I. Stockman, Fundamentally fastest
 optical processes at the surface of a topological insulator Phys. Rev. B 98 (12), 125410 (2018) Impact
 Factor: 3.736&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;S. Azar Oliaei Motlagh, Jhih-Sheng Wu, Vadym Apalkov, and Mark I. Stockman, Femtosecond valley
 polarization and topological resonances in transition metal dichalcogenides Phys. Rev. B 98, 081406(R)
 (2018) Impact Factor: 3.736&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;S. Azar Oliaei Motlagh, Jhih-Sheng Wu, Vadym Apalkov, and Mark I. Stockman, Ultrafast Control
 of Electron Dynamics in 3D Topological Insulator Journal of Physics: Conference Series 906 (1), 012012
 (2017)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;8&#34;&gt;
 &lt;li&gt;Fengrui Hu, Yilong Luan, Zhe Fei, Igor Palubski, Michael Gold
 am, Siyuan Dai, Jhih-Sheng Wu, Kirk
 W Post, Guido Janssen, Michael M Fogler, DN Basov, Imaging the localized plasmon resonance modes in
 graphene nanoribbons, Nano Lett., 2017, 17 (9), pp 5423-5428 Impact Factor: 12.08&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;9&#34;&gt;
 &lt;li&gt;Achim Woessner, Romain Parret, Diana Davydovskaya, Yuanda Gao, Jhih-Sheng Wu, Mark B Lundeberg,
 Sebastien Nanot, Pablo Alonso-Gonzalez, Kenji Watanabe, Takashi Taniguchi, Rainer Hillenbrand,
 Michael M Fogler, James Hone, Frank HL Koppens, Electrical detection of hyperbolic phonon-polaritons
 in heterostructures of graphene and boron nitride, npj 2D Materials and Applications 1, Article number:
 25 (2017)&lt;/li&gt;
-&lt;li&gt;Yinming Shao, Kirk W Post, Jhih-Sheng Wu, Siyuan Dai, Alex J Frenzel, Anthony R Richardella,
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;10&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Yinming Shao, Kirk W Post, Jhih-Sheng Wu, Siyuan Dai, Alex J Frenzel, Anthony R Richardella,
 Joon Sue Lee, Nitin Samarth, Michael M Fogler, Alexander V Balatsky, Dmitri E Kharzeev, Dimitri N
 Basov, Faraday Rotation Due to Surface States in the Topological Insulator (Bi1{x Sbx)2Te3, Nano Lett.,
-2017, 17 (2), pp 980{984 Impact Factor: 12.08&lt;/li&gt;
-&lt;li&gt;Fei, Zhe; Goldflam, Michael; Wu, Jhih-Sheng; Dai, Siyuan; Wagner, Martin; McLeod, Alex; Liu,
+2017, 17 (2), pp 980{984 Impact Factor: 12.08&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fei, Zhe; Goldflam, Michael; Wu, Jhih-Sheng; Dai, Siyuan; Wagner, Martin; McLeod, Alex; Liu,
 Mengkun; Post, Kirk; Zhu, Shou-En; Janssen, Guido; Fogler, Michael; Basov, Dimitri, Edge plasmons
 and plane plasmons in graphene nanoribbons&amp;quot;, Nano Lett., 2015, 15 (12), pp 8271{8276 Impact Factor:
-12.08&lt;/li&gt;
-&lt;li&gt;Jhih-Sheng Wu, D. N. Basov, and M. M. Fogler, Topological insulators are tunable waveguides for
-hyperbolic polaritons, Phys. Rev. B 92, 205430 (2015) Impact Factor: 3.736&lt;/li&gt;
-&lt;li&gt;G. X. Ni, H. Wang, J. S. Wu, Z. Fei, M. D. Gold
+12.08&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jhih-Sheng Wu, D. N. Basov, and M. M. Fogler, Topological insulators are tunable waveguides for
+hyperbolic polaritons, Phys. Rev. B 92, 205430 (2015) Impact Factor: 3.736&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;G. X. Ni, H. Wang, J. S. Wu, Z. Fei, M. D. Gold
 am, F. Keilmann, B. Ozyilmaz, A. H. Castro Neto,
 X. Xie, M. M. Fogler, D. N. Basov, Plasmons in Graphene Moire Superlattices, Nature Materials 14,
-1217{1222 (2015) Impact Factor: 38.887&lt;/li&gt;
-&lt;li&gt;K. W. Post, B. C. Chapler, M. K. Liu, J. S. Wu, H. T. Stinson, M. D. Gold
+1217{1222 (2015) Impact Factor: 38.887&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;K. W. Post, B. C. Chapler, M. K. Liu, J. S. Wu, H. T. Stinson, M. D. Gold
 am, A. R. Richardella, J.
 S. Lee, A. A. Reijnders, K. S. Burch, M. M. Fogler, N. Samarth, and D. N. Basov, Sum-rule constraints
 on the surface state conductance of topological insulators, Phys. Rev. Lett. 115, 116804 (2015) Impact
-Factor: 9.227&lt;/li&gt;
-&lt;li&gt;Jhih-Sheng Wu and Michael M. Fogler, Scattering of two-dimensional massless Dirac electrons by a
-circular potential barrier, Phys. Rev. B 90, 235402 (2014) Impact Factor: 3.736&lt;/li&gt;
-&lt;li&gt;H. T. Stinson, J. S. Wu, B. Y. Jiang, Z. Fei, A. S. Rodin, B. C. Chapler, A. S. McLeod, A. Castro
+Factor: 9.227&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jhih-Sheng Wu and Michael M. Fogler, Scattering of two-dimensional massless Dirac electrons by a
+circular potential barrier, Phys. Rev. B 90, 235402 (2014) Impact Factor: 3.736&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;H. T. Stinson, J. S. Wu, B. Y. Jiang, Z. Fei, A. S. Rodin, B. C. Chapler, A. S. McLeod, A. Castro
 Neto, Y. S. Lee, M. M. Fogler, and D. N. Basov, Infraorange nanospectroscopy and imaging of collective
 super
 uid excitations in anisotropic superconductors, Phys. Rev. B 90, 014502 (2014) Impact Factor:
-3.736&lt;/li&gt;
-&lt;li&gt;Jian-Yuan Chang, Jhih-Sheng Wu, and Ching-Ray Chang, Exact Hamiltonians with Rashba and cubic
+3.736&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jian-Yuan Chang, Jhih-Sheng Wu, and Ching-Ray Chang, Exact Hamiltonians with Rashba and cubic
 Dresselhaus spin-orbit couplings on a curved surface, Phys. Rev. B 87, 174413, (2013) Impact Factor:
-3.736&lt;/li&gt;
-&lt;li&gt;Ming-Hao Liu, Jhih-Sheng Wu, Son-Hsien Chen, and Ching-Ray Chang, Spin and charge transport
+3.736&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ming-Hao Liu, Jhih-Sheng Wu, Son-Hsien Chen, and Ching-Ray Chang, Spin and charge transport
 in U-shaped one-dimensional channels with spin-orbit couplings, Phys. Rev. B 84, 085307 (2011) Impact
-Factor: 3.736&lt;/li&gt;
+Factor: 3.736&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>Topological Nanospaser</title>
+      <title>TMDC-Based Topological Nanospaser: Single and Double Threshold Behavior</title>
       <link>https://jhihsheng.github.io/publication/2021_acsp_ttns/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://jhihsheng.github.io/publication/2021_acsp_ttns/</guid>
@@ -185,6 +419,14 @@ Factor: 3.736&lt;/li&gt;
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Topological resonance in Weyl semimetals in a circularly polarized optical pulse</title>
+      <link>https://jhihsheng.github.io/publication/2020_prb_125415/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2020_prb_125415/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -341,6 +583,46 @@ Three
     </item>
     
     <item>
+      <title>Characteristic distance of resonance energy transfer coupled with surface plasmon polaritons</title>
+      <link>https://jhihsheng.github.io/publication/2019_jpcl/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2019_jpcl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fundamentally fastest optical processes at the surface of a topological insulator</title>
+      <link>https://jhihsheng.github.io/publication/2018_prb_125410/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2018_prb_125410/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Femtosecond valley polarization and topological resonances in transition metal dichalcogenides</title>
+      <link>https://jhihsheng.github.io/publication/2018_prb_081406/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2018_prb_081406/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imaging the localized plasmon resonance modes in graphene nanoribbons</title>
+      <link>https://jhihsheng.github.io/publication/2017_nl_edge_plasmon/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2017_nl_edge_plasmon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faraday Rotation Due to Surface States in the Topological Insulator (Bi$_{1–x}$Sb$_x$)$_2$Te$_3$</title>
+      <link>https://jhihsheng.github.io/publication/2017_nl_faraday/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2017_nl_faraday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Project</title>
       <link>https://jhihsheng.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -351,6 +633,54 @@ Three
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Edge and surface plasmons in graphene nanoribbons</title>
+      <link>https://jhihsheng.github.io/publication/2015_nl/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2015_nl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topological insulators are tunable waveguides for hyperbolic polaritons</title>
+      <link>https://jhihsheng.github.io/publication/2015_prb/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2015_prb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plasmons in graphene moiré superlattices</title>
+      <link>https://jhihsheng.github.io/publication/2015_nm_pg/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2015_nm_pg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sum-Rule Constraints on the Surface State Conductance of Topological Insulators</title>
+      <link>https://jhihsheng.github.io/publication/2015_prl/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2015_prl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scattering of two-dimensional massless Dirac electrons by a circular potential barrier</title>
+      <link>https://jhihsheng.github.io/publication/2014_prb/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2014_prb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrared nanospectroscopy and imaging of collective superfluid excitations in anisotropic superconductors</title>
+      <link>https://jhihsheng.github.io/publication/2014_prb_sc/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/publication/2014_prb_sc/</guid>
+      <description></description>
     </item>
     
     <item>

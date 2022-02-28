@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jhihsheng.github.io/courses/qo/</loc>
+    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/qo/ch1/python/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/qo/ch2/python/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/em/</loc>
+    <lastmod>2020-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/qo/ch1/visualization/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/qo/ch2/visualization/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/qo/ch1/stats/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/qo/ch2/stats/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jhihsheng.github.io/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
@@ -10,6 +34,15 @@
   </url><url>
     <loc>https://jhihsheng.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/qo/ch1/</loc>
+    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/qo/ch2/</loc>
+    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/courses/</loc>
+    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jhihsheng.github.io/pub_list/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
@@ -26,6 +59,15 @@
     <loc>https://jhihsheng.github.io/publication/2021_acsp_ttns/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://jhihsheng.github.io/tag/data-visualization/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/tag/statistics/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/tags/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jhihsheng.github.io/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -38,9 +80,6 @@
     <loc>https://jhihsheng.github.io/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jhihsheng.github.io/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jhihsheng.github.io/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -49,6 +88,9 @@
   </url><url>
     <loc>https://jhihsheng.github.io/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2020_prb_125415/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jhihsheng.github.io/publication/2020_np_tns/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
@@ -65,6 +107,21 @@
     <loc>https://jhihsheng.github.io/team/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://jhihsheng.github.io/publication/2019_jpcl/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2018_prb_125410/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2018_prb_081406/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2017_nl_edge_plasmon/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2017_nl_faraday/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jhihsheng.github.io/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -73,6 +130,24 @@
   </url><url>
     <loc>https://jhihsheng.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2015_nl/</loc>
+    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2015_prb/</loc>
+    <lastmod>2015-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2015_nm_pg/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2015_prl/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2014_prb/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jhihsheng.github.io/publication/2014_prb_sc/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jhihsheng.github.io/admin/</loc>
   </url>
