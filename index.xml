@@ -5,7 +5,7 @@
     <link>https://jhihsheng.github.io/</link>
       <atom:link href="https://jhihsheng.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Quantum Nano-Optics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><copyright>© 2022 Jhih-Sheng Wu</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png</url>
       <title>Quantum Nano-Optics</title>
@@ -261,8 +261,7 @@ plt.show()
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;to-test-uploading-from-desktop&#34;&gt;To test uploading from desktop&lt;/h2&gt;
 </description>
     </item>
     
