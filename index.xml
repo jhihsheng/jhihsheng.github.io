@@ -25,11 +25,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;We begin with the number basis. &amp;lsquo;a = destroy()&amp;rsquo; genrerates the annillation operator in the numner basis.
-$$ a = \begin{bmatrix} 0 &amp;amp; 0 &amp;amp; 0&amp;amp;\dots\\&lt;br&gt;
+$$ a = \left(\begin{bmatrix} 0 &amp;amp; 0 &amp;amp; 0&amp;amp;\dots\\&lt;br&gt;
 1 &amp;amp; 0 &amp;amp;  0&amp;amp;\dots\\&lt;br&gt;
 0 &amp;amp;\sqrt{2}&amp;amp;0&amp;amp;\dots\\&lt;br&gt;
 0 &amp;amp; 0 &amp;amp;\sqrt{3} &amp;amp;\ddots           &lt;br&gt;
-\end{bmatrix}  $$
+\end{bmatrix}\right)  $$
 Then, we write $x$ and $p$ operators in the number basis,
 $$ x = \frac{a+a^{\dagger}}{2}, \&lt;br&gt;
 p  = \frac{a-a^{\dagger}}{2i},$$
