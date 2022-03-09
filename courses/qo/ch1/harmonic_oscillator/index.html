@@ -30,10 +30,11 @@
   
     
   
-  <meta name="description" content="We report the Drude oscillator strength $D$ and the magnitude of the bulk band gap $E_g$ of the epitaxially grown, topological insulator (Bi,Sb)$_2$Te$_3$. The magnitude of $E_g$, in conjunction with the model independent $f$-sum rule, allows us to establish an upper bound for the magnitude of $D$ expected in a typical Dirac-like system composed of linear bands. The experimentally observed $D$ is found to be at or below this theoretical upper bound, demonstrating the effectiveness of alloying in eliminating bulk charge carriers. Moreover, direct comparison of the measured $D$ to magnetoresistance measurements of the same sample supports assignment of the observed low-energy conduction to topological surface states." />
+  <meta name="description" content="We show how to compute the harmonic oscillator in the number basis. We use the quantum toolbox in Python,
+qutip." />
 
   
-  <link rel="alternate" hreflang="zh-Hant" href="https://jhihsheng.github.io/publication/2015_prl/" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://jhihsheng.github.io/courses/qo/ch1/harmonic_oscillator/" />
 
   
 
@@ -318,7 +319,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://jhihsheng.github.io/publication/2015_prl/" />
+  <link rel="canonical" href="https://jhihsheng.github.io/courses/qo/ch1/harmonic_oscillator/" />
 
   
   
@@ -329,73 +330,30 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Quantum Nano-Optics" />
-  <meta property="og:url" content="https://jhihsheng.github.io/publication/2015_prl/" />
-  <meta property="og:title" content="Sum-Rule Constraints on the Surface State Conductance of Topological Insulators | Quantum Nano-Optics" />
-  <meta property="og:description" content="We report the Drude oscillator strength $D$ and the magnitude of the bulk band gap $E_g$ of the epitaxially grown, topological insulator (Bi,Sb)$_2$Te$_3$. The magnitude of $E_g$, in conjunction with the model independent $f$-sum rule, allows us to establish an upper bound for the magnitude of $D$ expected in a typical Dirac-like system composed of linear bands. The experimentally observed $D$ is found to be at or below this theoretical upper bound, demonstrating the effectiveness of alloying in eliminating bulk charge carriers. Moreover, direct comparison of the measured $D$ to magnetoresistance measurements of the same sample supports assignment of the observed low-energy conduction to topological surface states." /><meta property="og:image" content="https://jhihsheng.github.io/publication/2015_prl/featured.png" />
-    <meta property="twitter:image" content="https://jhihsheng.github.io/publication/2015_prl/featured.png" /><meta property="og:locale" content="zh-Hant" />
+  <meta property="og:url" content="https://jhihsheng.github.io/courses/qo/ch1/harmonic_oscillator/" />
+  <meta property="og:title" content="Harmonic Ocsillator | Quantum Nano-Optics" />
+  <meta property="og:description" content="We show how to compute the harmonic oscillator in the number basis. We use the quantum toolbox in Python,
+qutip." /><meta property="og:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hant" />
   
     
       <meta
         property="article:published_time"
-        content="2015-09-01T00:00:00&#43;00:00"
+        content="2022-03-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2015-09-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-03-01T00:00:00&#43;00:00">
   
 
   
 
 
-    
-
-
-
-
-
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://jhihsheng.github.io/publication/2015_prl/"
-  },
-  "headline": "Sum-Rule Constraints on the Surface State Conductance of Topological Insulators",
-  
-  "image": [
-    "https://jhihsheng.github.io/publication/2015_prl/featured.png"
-  ],
-  
-  "datePublished": "2015-09-01T00:00:00Z",
-  "dateModified": "2015-09-01T00:00:00Z",
-  
-  "author": {
-    "@type": "Person",
-    "name": "吳致盛"
-  },
-  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Quantum Nano-Optics",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_192x192_fill_lanczos_center_3.png"
-    }
-  },
-  "description": "We report the Drude oscillator strength $D$ and the magnitude of the bulk band gap $E_g$ of the epitaxially grown, topological insulator (Bi,Sb)$_2$Te$_3$. The magnitude of $E_g$, in conjunction with the model independent $f$-sum rule, allows us to establish an upper bound for the magnitude of $D$ expected in a typical Dirac-like system composed of linear bands. The experimentally observed $D$ is found to be at or below this theoretical upper bound, demonstrating the effectiveness of alloying in eliminating bulk charge carriers. Moreover, direct comparison of the measured $D$ to magnetoresistance measurements of the same sample supports assignment of the observed low-energy conduction to topological surface states."
-}
-</script>
-
-  
 
   
 
@@ -407,11 +365,11 @@
 
 
 
-  <title>Sum-Rule Constraints on the Surface State Conductance of Topological Insulators | Quantum Nano-Optics</title>
+  <title>Harmonic Ocsillator | Quantum Nano-Optics</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="01b80a57cbf7f344b4cc087bbf54c9f7" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="76c4755f482d3cefa6cb415faed46db3" >
 
   
   
@@ -636,7 +594,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/publication"><span>Publications</span></a>
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
         </li>
 
         
@@ -666,7 +624,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses"><span>Teaching</span></a>
+          <a class="nav-link  active" href="/courses"><span>Teaching</span></a>
         </li>
 
         
@@ -802,322 +760,475 @@
 
 
 
-
-
-
-<div class="pub">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+          Field Quantization
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
 
   
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">搜尋...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
   
+</form>
 
-
-<div class="article-container pt-3">
-  <h1>Sum-Rule Constraints on the Surface State Conductance of Topological Insulators</h1>
-
-  
-
-  
-
-
-<div class="article-metadata">
-
+<nav class="collapse docs-links" id="docs-nav">
   
   
   
   
-  <div>
+  
+  
+
+  
+  
     
 
-  <span >
-      吳致盛</span>, <span >
-      D.N. Basov</span>, <span >
-      M.M. Fogler</span>
-  </div>
-  
-  
+    
+      
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/courses/"><i class="fas fa-arrow-left pr-1"></i>🕮 Courses</a></li>
+      </ul>
+
+      
+      
+        
+          
+        
+      
+
 
   
-  <span class="article-date">
+    
+    
     
     
       
     
-    September 2015
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-
-
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.116804" target="_blank" rel="noopener">
-    DOI</a>
-
-
-</div>
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 465px; max-height: 500px;">
-  <div style="position: relative">
-    <img src="/publication/2015_prl/featured.png" alt="" class="featured-image">
-    
-  </div>
-</div>
-
-
-
-  <div class="article-container">
-
-    
-    <h3>摘要</h3>
-    <p class="pub-abstract">We report the Drude oscillator strength $D$ and the magnitude of the bulk band gap $E_g$ of the epitaxially grown, topological insulator (Bi,Sb)$_2$Te$_3$. The magnitude of $E_g$, in conjunction with the model independent $f$-sum rule, allows us to establish an upper bound for the magnitude of $D$ expected in a typical Dirac-like system composed of linear bands. The experimentally observed $D$ is found to be at or below this theoretical upper bound, demonstrating the effectiveness of alloying in eliminating bulk charge carriers. Moreover, direct comparison of the measured $D$ to magnetoresistance measurements of the same sample supports assignment of the observed low-energy conduction to topological surface states.</p>
     
 
     
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/courses/qo/">Quantum Optics</a>
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">類型</div>
-          <div class="col-12 col-md-9">
-            <a href="/publication/#2">
-              期刊文章
-            </a>
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/courses/qo/ch1/">Field Quantization</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class="active"><a href="/courses/qo/ch1/harmonic_oscillator/">Harmonic Ocsillator</a></li>
+
+
+
+  <li class=""><a href="/courses/qo/ch1/plot_phase_states/">Phase States</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/courses/qo/ch2/">Light-Matter Interactions</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/courses/qo/ch2/python/">Python basics</a></li>
+
+
+
+  <li class=""><a href="/courses/qo/ch2/visualization/">Visualization</a></li>
+
+
+
+  <li class=""><a href="/courses/qo/ch2/stats/">Statistics</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+    
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">於本頁</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#discussion-here-is-more-advanced-you-can-skip-this-part">Discussion here is more advanced. You can skip this part.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+            
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+  
+  
+  
+
+  <li class="breadcrumb-item">
+    <a href="/">
+      
+        主頁
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/">
+      
+        🕮 Courses
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/qo/">
+      
+        Quantum Optics
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/qo/ch1/">
+      
+        Field Quantization
+      
+    </a>
+  </li>
+
+
+      <li class="breadcrumb-item active" aria-current="page">
+        Harmonic Ocsillator
+      </li>
+    </ol>
+  </nav>
+
+
+          
+
+          <h1>Harmonic Ocsillator</h1>
+
+          <div class="article-style">
+            <p>We show how to compute the harmonic oscillator in the number basis. We use the quantum toolbox in Python,
+qutip.</p>
+<pre><code class="language-python">from qutip import *
+from qutip.distributions import *
+import numpy as np
+import matplotlib.pyplot as plt
+</code></pre>
+<p>We begin with the number basis. &lsquo;a = destroy()&rsquo; genrerates the annillation operator in the numner basis.
+$$ a = \begin{pmatrix} 0 &amp; 0 &amp; 0&amp;\dots\\<br>
+1 &amp; 0 &amp;  0&amp;\dots\\<br>
+0 &amp;\sqrt{2}&amp;0&amp;\dots\\<br>
+0 &amp; 0 &amp;\sqrt{3} &amp;\ddots
+\end{pmatrix}  $$
+Then, we write $x$ and $p$ operators in the number basis,
+$$ x = \frac{a+a^{\dagger}}{2}, \<br>
+p  = \frac{a-a^{\dagger}}{2i},$$
+and compute the eigenbasis of $x$ operator, that is, to express $|x_i\rangle$ in the number basis.</p>
+<pre><code class="language-python">## create the operators in the number basis (Fock basis)
+N = 501 # the maximum number of the photon number
+a = destroy(N)
+x = (a + a.dag())/2
+p = (a - a.dag())/2j
+
+# to find the basis vectors of x operator (but expressed in the number basis) 
+x_vals, x_states = x.eigenstates()
+</code></pre>
+<h3 id="discussion-here-is-more-advanced-you-can-skip-this-part">Discussion here is more advanced. You can skip this part.</h3>
+<p>The problem here is related to the gauge fixing of the phase. Since the phases of the eigenstates can be arbitrary, there exist  the degree of freedom to add the phase
+$$ |x_\mathrm{new} \rangle = \exp{i\phi(x)}|x \rangle,$$
+where $\phi(x)$ is an arbitrary funciton. When we obtain $|x\rangle $ numerically, it may occur that
+$\phi(x)$ is not a continuous funciton of $x$. The discontinuity will cause problems, says when
+computing the derivatives of wavefunctions with respect to $x$. Below, we remedy the issue.</p>
+<p>The basis vectors $|x_i\rangle$  by &lsquo;x_states&rsquo; are obtained by the exact diagonalization of the $x$ matrix.
+A typical problem of numerically obtained $|x_i\rangle$ is that the phase of different $|x_i\rangle$ is not continuous in $x$. This leads to the problem of discontinuities  of $\psi(x)$. To fix this problem,
+we require the following condition
+$$\mathrm{Arg}[\langle x_{i+1}|p|x_i\rangle]= \frac{\pi}{2}. $$</p>
+<pre><code class="language-python">#  The x_states contains the eigenvectors. However, the phase of each eigenvector is not continuous 
+#  as a function of xi.
+#  This casuses a problem that the wavefunciton psi(x) is not continuous.
+# # The way to remedy the issue is to make &lt;xi+1|p|xi&gt; have the same phase   
+x_states[0] = - x_states[0] # to fix the phase such that psi_0(x) &gt;0
+for i in range(N-1):
+    tmp1 = x_states[i+1].dag()*p*x_states[i]
+    ph = np.angle(tmp1)
+    ph_c = np.pi/2 - ph[0,0]
+    x_states[i+1] = np.exp(1j* ph_c)* x_states[i+1]
+    
+    
+</code></pre>
+<pre><code class="language-python">## plot the harmonic potential V = 1/2 x^2
+
+plt.figure(dpi=150,figsize=(12,5))
+# subplot 1
+plt.subplot(1,2,1)
+plt.plot(x_vals, x_vals**2/2)
+plt.fill_between(x_vals, 0., x_vals**2/2, alpha=0.2)
+## plot the probabilities of the eigenstates
+for i in range(5):
+    psi = fock(N,i) ## fock states are the eigenstates of a harmonic oscillator
+    Ei = 1/2 + i 
+    psi_x = psi.transform(x_states)
+    y1 = np.abs(psi_x.full())**2 * 15 + Ei
+    y1 = np.real(psi_x.full()) * 2 + Ei
+    y1 = np.reshape(y1,(N,))
+    plt.plot(x_vals, y1)
+    plt.fill_between(x_vals, Ei, y1 , alpha=0.2)       
+plt.ylabel(r&quot;$\frac{E_n}{\hbar\omega}$&quot;)
+plt.xlabel(r&quot;$x$&quot;)
+plt.xlim([-3,3])
+plt.ylim([0,5.5])
+plt.text(0.7,1, '$\psi_0(x)$')
+plt.text(1.2,2, '$\psi_1(x)$')
+plt.text(1.6,3, '$\psi_2(x)$')
+plt.text(2,4, '$\psi_3(x)$')
+plt.text(2.2,5, '$\psi_4(x)$');
+
+# subplot 2
+plt.subplot(1,2,2)
+plt.plot(x_vals, x_vals**2/2)
+plt.fill_between(x_vals, 0., x_vals**2/2, alpha=0.2)
+## plot the probabilities of the eigenstates
+for i in range(5):
+    psi = fock(N,i) ## fock states are the eigenstates of a harmonic oscillator
+    Ei = 1/2 + i 
+    psi_x = psi.transform(x_states)
+    y1 = np.abs(psi_x.full())**2 * 15 + Ei
+    y1 = np.reshape(y1,(N,))
+    plt.plot(x_vals, y1)
+    plt.fill_between(x_vals, Ei, y1 , alpha=0.2)       
+plt.ylabel(r&quot;$\frac{E_n}{\hbar\omega}$&quot;)
+plt.xlabel(r&quot;$x$&quot;)
+plt.xlim([-3,3])
+plt.ylim([0,5.5])
+plt.text(0.7,1, '$|\psi_0(x)|^2$')
+plt.text(1.2,2, '$|\psi_1(x)|^2$')
+plt.text(1.6,3, '$|\psi_2(x)|^2$')
+plt.text(2,4, '$|\psi_3(x)|^2$')
+plt.text(2.2,5, '$|\psi_4(x)|^2$');
+</code></pre>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="/QO_2022/ho_1.png" alt="png" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<pre><code class="language-python">from qutip.ipynbtools import version_table
+version_table()
+</code></pre>
+<table><tr><th>Software</th><th>Version</th></tr><tr><td>QuTiP</td><td>4.6.3</td></tr><tr><td>Numpy</td><td>1.22.2</td></tr><tr><td>SciPy</td><td>1.8.0</td></tr><tr><td>matplotlib</td><td>3.4.0</td></tr><tr><td>Cython</td><td>0.29.28</td></tr><tr><td>Number of CPUs</td><td>8</td></tr><tr><td>BLAS Info</td><td>OPENBLAS</td></tr><tr><td>IPython</td><td>8.1.1</td></tr><tr><td>Python</td><td>3.10.2 | packaged by conda-forge | (main, Feb  1 2022, 19:29:00) [GCC 9.4.0]</td></tr><tr><td>OS</td><td>posix [linux]</td></tr><tr><td colspan='2'>Sun Mar 06 16:06:18 2022 CST</td></tr></table>
+<p>Instead of using the Fock states (number states), we compute the eigenstates dierectly from the hamiltonians.
+Of course, we will obtain the same results.</p>
+<pre><code class="language-python">hamil =  x**2 + p**2
+en_vals, h_states = hamil.eigenstates()
+</code></pre>
+<pre><code class="language-python">plt.figure(dpi=150)
+plt.plot(x_vals, x_vals**2/2)
+plt.fill_between(x_vals, 0., x_vals**2/2, alpha=0.2)
+
+## plot the probabilities of the eigenstates
+
+for i in range(5):
+    Ei = 1/2 + i 
+    psi_x = h_states[i].transform(x_states)
+    y1 = np.abs(psi_x.full())**2 * 15 + Ei
+    y1 = np.reshape(y1,(N,))
+    plt.plot(x_vals, y1)
+    plt.fill_between(x_vals, Ei, y1 , alpha=0.2)
+
+plt.ylabel(r&quot;$\frac{E_n}{\hbar\omega}$&quot;)
+plt.xlabel(r&quot;$x$&quot;)
+plt.xlim([-3,3])
+plt.ylim([0,6])
+plt.text(0.7,1, '$|\psi_0(x)|^2$')
+plt.text(1.2,2, '$|\psi_1(x)|^2$')
+plt.text(1.6,3, '$|\psi_2(x)|^2$')
+plt.text(2,4, '$|\psi_3(x)|^2$')
+plt.text(2.2,5, '$|\psi_4(x)|^2$');
+</code></pre>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="/QO_2022/ho_2.png" alt="png" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<pre><code class="language-python">
+</code></pre>
           </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">出版物</div>
-          <div class="col-12 col-md-9">In <em>Physical Review Letters</em></div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style"></div>
-
-    
+          
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-
-
-
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
   
   
   
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="https://jhihsheng.github.io"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu6372ec9653c0e1227671476da5149cb7_1216000_270x270_fill_q75_lanczos_center.jpg" alt="吳致盛"></a>
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://jhihsheng.github.io">吳致盛</a></h5>
-      <h6 class="card-subtitle">助理教授</h6>
-      <p class="card-text">物理、光學</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=kXggAHAAAAAJ&amp;hl" target="_blank" rel="noopener">
-        <i class="fas fa-graduation-cap"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
+  <div class="post-nav-item">
+    <div class="meta-nav">下一頁</div>
+    <a href="/courses/qo/ch1/plot_phase_states/" rel="prev">Phase States</a>
   </div>
-
-
   
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  </div>
 </div>
-  </div>
 
-  <div class="page-footer">
-    
-    
-    <div class="container">
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>最近更新於 Mar, 2022</p>
+
+          
+
+
+
+
+
+          
+
+
+
+
+          
+
+
+  
+  
+
+
+
+        </div>
+
+      </article>
+
       <footer class="site-footer">
 
   
@@ -1157,7 +1268,15 @@
   </p>
 </footer>
 
-    </div>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
     
   </div>
 
@@ -1222,6 +1341,11 @@
     
 
     
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
     
 
     
