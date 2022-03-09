@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Build a foundation in Python." />
+  <meta name="description" content="Using the concepts of harmonic oscillators to quantize fields" />
 
   
-  <link rel="alternate" hreflang="zh-Hant" href="https://jhihsheng.github.io/courses/qo/ch1/python/" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://jhihsheng.github.io/courses/qo/ch1/" />
 
   
 
@@ -251,7 +251,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.a84ce6dbf4b2995b844ccb53a7141ad3.css" />
+  <link rel="stylesheet" href="/css/wowchemy.ddabec24c7a32d088c79ef8b8224aa5f.css" />
 
   
 
@@ -310,6 +310,8 @@
   
 
   
+    <link rel="alternate" href="/courses/qo/ch1/index.xml" type="application/rss+xml" title="Quantum Nano-Optics" />
+  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -318,7 +320,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://jhihsheng.github.io/courses/qo/ch1/python/" />
+  <link rel="canonical" href="https://jhihsheng.github.io/courses/qo/ch1/" />
 
   
   
@@ -335,18 +337,14 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Quantum Nano-Optics" />
-  <meta property="og:url" content="https://jhihsheng.github.io/courses/qo/ch1/python/" />
-  <meta property="og:title" content="Python basics | Quantum Nano-Optics" />
-  <meta property="og:description" content="Build a foundation in Python." /><meta property="og:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://jhihsheng.github.io/courses/qo/ch1/" />
+  <meta property="og:title" content="📊 Field Quantization | Quantum Nano-Optics" />
+  <meta property="og:description" content="Using the concepts of harmonic oscillators to quantize fields" /><meta property="og:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hant" />
   
     
-      <meta
-        property="article:published_time"
-        content="2021-01-01T00:00:00&#43;00:00"
-      />
+      <meta property="og:updated_time" content="2022-02-23T00:00:00&#43;00:00" />
     
-    <meta property="article:modified_time" content="2021-01-01T00:00:00&#43;00:00">
   
 
   
@@ -357,17 +355,15 @@
 
   
 
-  
 
 
 
 
-
-  <title>Python basics | Quantum Nano-Optics</title>
+  <title>📊 Field Quantization | Quantum Nano-Optics</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="857a5e785a8387d7eac85a7f05dbd55f" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="4a47b96dbae114941a88d2751756bf8e" >
 
   
   
@@ -622,7 +618,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/courses"><span>Tecahing</span></a>
+          <a class="nav-link  active" href="/courses"><span>Teaching</span></a>
         </li>
 
         
@@ -766,7 +762,7 @@
     <div class="d-flex">
       <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
         
-          Field Quantization
+          Quantum Optics
         
       </span>
       <span><i class="fas fa-chevron-down"></i></span>
@@ -838,30 +834,18 @@
 
     
       <div class="docs-toc-item">
-        <a class="docs-toc-link " href="/courses/qo/ch1/">Field Quantization</a>
+        <a class="docs-toc-link  active" href="/courses/qo/ch1/">Field Quantization</a>
     
       
         <ul class="nav docs-sidenav">
       
 
 
-  <li class="active"><a href="/courses/qo/ch1/python/">Python basics</a></li>
-
-
-
-  <li class=""><a href="/courses/qo/ch1/visualization/">Visualization</a></li>
-
-
-
-  <li class=""><a href="/courses/qo/ch1/stats/">Statistics</a></li>
+  <li class=""><a href="/courses/qo/ch1/harmonic_oscillator/">Harmonic Ocsillator</a></li>
 
 
 
   <li class=""><a href="/courses/qo/ch1/plot_phase_states/">Phase States</a></li>
-
-
-
-  <li class=""><a href="/courses/qo/ch1/harmonic_oscillator/"></a></li>
 
       
         </ul>
@@ -937,8 +921,7 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#learn">Learn</a></li>
-    <li><a href="#quiz">Quiz</a></li>
+    <li><a href="#what-you-will-learn">What you will learn</a></li>
   </ul>
 </nav>
 
@@ -956,7 +939,6 @@
   <nav class="d-none d-md-flex" aria-label="breadcrumb">
     <ol class="breadcrumb">
       
-  
   
   
   
@@ -988,17 +970,8 @@
   </li>
 
 
-  <li class="breadcrumb-item">
-    <a href="/courses/qo/ch1/">
-      
-        Field Quantization
-      
-    </a>
-  </li>
-
-
       <li class="breadcrumb-item active" aria-current="page">
-        Python basics
+        Field Quantization
       </li>
     </ol>
   </nav>
@@ -1006,39 +979,39 @@
 
           
 
-          <h1>Python basics</h1>
+          <h1>📊 Field Quantization</h1>
 
           <div class="article-style">
-            <p>Build a foundation in Python.</p>
-<p>
-  <i class="fas fa-clock  pr-1 fa-fw"></i> 1-2 hours per week, for 8 weeks</p>
-<h2 id="learn">Learn</h2>
+            <details class="toc-inpage d-print-none d-xl-none " open>
+  <summary class="font-weight-bold">目錄</summary>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-you-will-learn">What you will learn</a></li>
+  </ul>
+</nav>
+</details>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/rfscVS0vtbw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<h2 id="what-you-will-learn">What you will learn</h2>
 
-<h2 id="quiz">Quiz</h2>
-<details class="spoiler "  id="spoiler-2">
-  <summary>What is the difference between lists and tuples?</summary>
-  <p><p>Lists</p>
-<ul>
-<li>Lists are mutable - they can be changed</li>
-<li>Slower than tuples</li>
-<li>Syntax: <code>a_list = [1, 2.0, 'Hello world']</code></li>
-</ul>
-<p>Tuples</p>
-<ul>
-<li>Tuples are immutable - they can&rsquo;t be changed</li>
-<li>Tuples are faster than lists</li>
-<li>Syntax: <code>a_tuple = (1, 2.0, 'Hello world')</code></li>
-</ul>
+
+  <ul class="list-unstyled">
+    
+      <li>
+        <h5><a href="/courses/qo/ch1/harmonic_oscillator/">Harmonic Ocsillator</a></h5>
+        <p>We show how to compute the harmonic oscillator in the number basis. We use the quantum toolbox in Python, qutip.
 </p>
-</details>
-<details class="spoiler "  id="spoiler-3">
-  <summary>Is Python case-sensitive?</summary>
-  <p>Yes</p>
-</details>
+      </li>
+    
+      <li>
+        <h5><a href="/courses/qo/ch1/plot_phase_states/">Phase States</a></h5>
+        <p>The plot of the phase states.
+</p>
+      </li>
+    
+  </ul>
+
+
+
           </div>
 
           
@@ -1052,12 +1025,6 @@
 <div class="post-nav">
   
   
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">下一頁</div>
-    <a href="/courses/qo/ch1/visualization/" rel="prev">Visualization</a>
-  </div>
-  
 </div>
 
           </div>
@@ -1065,7 +1032,7 @@
         </div>
 
         <div class="body-footer">
-          <p>最近更新於 Jan, 2021</p>
+          <p>最近更新於 Feb, 2022</p>
 
           
 
