@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>📊 大學部專題 | Quantum Nano-Optics</title>
+    <title>大學部專題 | Quantum Nano-Optics</title>
     <link>https://jhihsheng.github.io/courses/bs_project/</link>
       <atom:link href="https://jhihsheng.github.io/courses/bs_project/index.xml" rel="self" type="application/rss+xml" />
-    <description>📊 大學部專題</description>
+    <description>大學部專題</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><copyright>© 2022 Jhih-Sheng Wu</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png</url>
-      <title>📊 大學部專題</title>
+      <title>大學部專題</title>
       <link>https://jhihsheng.github.io/courses/bs_project/</link>
     </image>
     

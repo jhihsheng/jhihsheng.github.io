@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="The plot of the phase states." />
+  <meta name="description" content="Visualization of quantum states from qutip import * from qutip.distributions import * import numpy as np import matplotlib.pyplot as plt  Any photonic state or ensemble can be expressed in the fock basis." />
 
   
-  <link rel="alternate" hreflang="zh-Hant" href="https://jhihsheng.github.io/courses/qo/ch1/plot_phase_states/" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://jhihsheng.github.io/courses/qo/ch1/phase_space_density/" />
 
   
 
@@ -318,7 +318,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://jhihsheng.github.io/courses/qo/ch1/plot_phase_states/" />
+  <link rel="canonical" href="https://jhihsheng.github.io/courses/qo/ch1/phase_space_density/" />
 
   
   
@@ -335,18 +335,18 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Quantum Nano-Optics" />
-  <meta property="og:url" content="https://jhihsheng.github.io/courses/qo/ch1/plot_phase_states/" />
-  <meta property="og:title" content="Phase States | Quantum Nano-Optics" />
-  <meta property="og:description" content="The plot of the phase states." /><meta property="og:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://jhihsheng.github.io/courses/qo/ch1/phase_space_density/" />
+  <meta property="og:title" content="PDF with Wigner and Q functions | Quantum Nano-Optics" />
+  <meta property="og:description" content="Visualization of quantum states from qutip import * from qutip.distributions import * import numpy as np import matplotlib.pyplot as plt  Any photonic state or ensemble can be expressed in the fock basis." /><meta property="og:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hant" />
   
     
       <meta
         property="article:published_time"
-        content="2021-01-01T00:00:00&#43;00:00"
+        content="2022-04-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-04-01T00:00:00&#43;00:00">
   
 
   
@@ -363,11 +363,11 @@
 
 
 
-  <title>Phase States | Quantum Nano-Optics</title>
+  <title>PDF with Wigner and Q functions | Quantum Nano-Optics</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="033e38a6976509e07b36125de6eeab83" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="ee5c6143fc46502fd2348ca5b6b28493" >
 
   
   
@@ -849,11 +849,11 @@
 
 
 
-  <li class="active"><a href="/courses/qo/ch1/plot_phase_states/">Phase States</a></li>
+  <li class=""><a href="/courses/qo/ch1/plot_phase_states/">Phase States</a></li>
 
 
 
-  <li class=""><a href="/courses/qo/ch1/phase_space_density/">PDF with Wigner and Q functions</a></li>
+  <li class="active"><a href="/courses/qo/ch1/phase_space_density/">PDF with Wigner and Q functions</a></li>
 
       
         </ul>
@@ -949,7 +949,10 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#to-test-uploading-from-desktop">To test uploading from desktop</a></li>
+    <li><a href="#visualization-of-quantum-states">Visualization of quantum states</a></li>
+    <li><a href="#photon-number-counting">photon number counting</a></li>
+    <li><a href="#wigner-function">Wigner function</a></li>
+    <li><a href="#husimi-q-function">Husimi Q-function</a></li>
   </ul>
 </nav>
 
@@ -1009,7 +1012,7 @@
 
 
       <li class="breadcrumb-item active" aria-current="page">
-        Phase States
+        PDF with Wigner and Q functions
       </li>
     </ol>
   </nav>
@@ -1017,34 +1020,46 @@
 
           
 
-          <h1>Phase States</h1>
+          <h1>PDF with Wigner and Q functions</h1>
 
           <div class="article-style">
-            <p>The plot of the phase states.</p>
-<pre><code class="language-python">import matplotlib
-import matplotlib.pyplot as plt
+            <h2 id="visualization-of-quantum-states">Visualization of quantum states</h2>
+<pre><code class="language-python">from qutip import *
+from qutip.distributions import *
 import numpy as np
-# Data for plotting
-phi1 = 0.5 * np.pi
-phi2 = 0.7 * np.pi
-Nmax = 30
-phi = np.arange(0.0, 2.0 * np.pi, 0.01)
-# define the phase distribution function 
-def phase_dist_func(x,y):
-    return np.sin(Nmax*(x-y)/2)**2./np.sin((x-y)/2)**2/Nmax/(2*np.pi)
-phase_dist_1 = phase_dist_func(phi,phi1)
-phase_dist_2 = phase_dist_func(phi,phi2)
-## plot
-fig, ax = plt.subplots()
-ax.plot(phi, phase_dist_1,label=r'$|\phi_1=0.5\pi\rangle$') 
-## r: raw string
-ax.plot(phi, phase_dist_2,label=r'$|\phi_2=0.7\pi\rangle$') 
-## r: raw string
-ax.set(xlabel='$\phi$ ', ylabel='$\mathcal{P}(\phi)$',
-       title='Phase Distribution Function of a Phase State')
-ax.grid()
-plt.legend()
-fig.savefig(&quot;phase_dist.png&quot;, dpi=300,facecolor='white', transparent=False)
+import matplotlib.pyplot as plt
+</code></pre>
+<p>Any photonic state or ensemble can be expressed in the fock basis. For example, a state $\psi\rangle$  is
+$$|\psi \rangle =\sum_{n}c_n |n\rangle $$
+and an ensemble $\rho$ is
+$$ \rho =\sum_{m,n} \rho_{mn}|m\rangle\langle n| $$
+where $|n\rangle$ is the number state with $n$ photons. The number $n$ ranges from $0$ to $\infty$. However, in computation, $n$ can not reach $\infty$. We set a maximum value $N_{\mathrm {max}}$.</p>
+<pre><code class="language-python">Nmax = 25 # the maximum number of the fock state
+rho_coherent = coherent_dm(Nmax, np.sqrt(4)) # create a coherent state with alpha = np.sqrrt(2)
+rho_thermal = thermal_dm(Nmax, 3) # create a thermal state with &lt;N&gt; = 3
+rho_fock = fock_dm(Nmax, 3) # create a fock state with n = 3
+alpha = 3 
+cat_state = coherent(Nmax,alpha) + coherent(Nmax,-alpha)
+rho_cat = cat_state * cat_state.dag()
+</code></pre>
+<h2 id="photon-number-counting">photon number counting</h2>
+<pre><code class="language-python">fig, axes = plt.subplots(1, 4, figsize=(15,3))
+# plot the coherent state
+bar0 = axes[0].bar(np.arange(0, Nmax), rho_coherent.diag())
+lbl0 = axes[0].set_title(&quot;Coherent State&quot;)
+lim0 = axes[0].set_xlim([-.5, Nmax])
+# plot the thermal state
+bar0 = axes[1].bar(np.arange(0, Nmax), rho_thermal.diag())
+lbl0 = axes[1].set_title(&quot;Thermal State&quot;)
+lim0 = axes[1].set_xlim([-.5, Nmax])
+# plot the fock state
+bar0 = axes[2].bar(np.arange(0, Nmax), rho_fock.diag())
+lbl0 = axes[2].set_title(&quot;Fock State&quot;)
+lim0 = axes[2].set_xlim([-.5, Nmax])
+# plot the cat state
+bar0 = axes[3].bar(np.arange(0, Nmax), rho_cat.diag())
+lbl0 = axes[3].set_title(&quot;Cat State&quot;)
+lim0 = axes[3].set_xlim([-.5, Nmax])
 plt.show()
 </code></pre>
 <p>
@@ -1066,16 +1081,131 @@ plt.show()
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="png" srcset="
-               /media/output_0_1_hufd834839036becc158b5d453c2e0787e_29444_e76650b6f6b34e512feaed2ff4c4dfd6.png 400w,
-               /media/output_0_1_hufd834839036becc158b5d453c2e0787e_29444_ebfc2250bfb66d69e2b58a72b0d83c19.png 760w,
-               /media/output_0_1_hufd834839036becc158b5d453c2e0787e_29444_1200x1200_fit_lanczos_3.png 1200w"
-               src="/media/output_0_1_hufd834839036becc158b5d453c2e0787e_29444_e76650b6f6b34e512feaed2ff4c4dfd6.png"
-               width="533"
-               height="395"
+               /media/output_5_0_hu46dc33074bab283cd78fa13484c18d4c_10115_27e543fea8c0cbbe352a5a68bfd40f26.png 400w,
+               /media/output_5_0_hu46dc33074bab283cd78fa13484c18d4c_10115_effc05c746e9c77c7b5ee4a995c4af47.png 760w,
+               /media/output_5_0_hu46dc33074bab283cd78fa13484c18d4c_10115_1200x1200_fit_lanczos_3.png 1200w"
+               src="/media/output_5_0_hu46dc33074bab283cd78fa13484c18d4c_10115_27e543fea8c0cbbe352a5a68bfd40f26.png"
+               width="760"
+               height="180"
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<h2 id="to-test-uploading-from-desktop">To test uploading from desktop</h2>
+<h2 id="wigner-function">Wigner function</h2>
+<pre><code class="language-python">xvec = np.linspace(-5,5,200)
+W_coherent = wigner(rho_coherent, xvec, xvec, g = 2) # g: scaling factor https://qutip.org/docs/latest/apidoc/functions.html#qutip.states.coherent
+W_thermal = wigner(rho_thermal, xvec, xvec, g = 2)
+W_fock = wigner(rho_fock, xvec, xvec, g = 2 )
+W_cat = wigner(cat_state , xvec, xvec, g = 2)
+
+# plot the results
+
+
+fig, axes = plt.subplots(2, 2, figsize=(10,8), dpi=200)
+cont0 = axes[0,0].contourf(xvec, xvec, W_coherent, 100,cmap='RdBu',vmin=-0.6, vmax=0.6)
+lbl0 = axes[0,0].set_title(&quot;Coherent state&quot;)
+plt.colorbar(cont0,ax=axes[0,0])
+axes[0, 0].axis('equal')
+#axes[0, 0].set(xlim=(-5, 5), ylim=(-5, 5))
+cont1 = axes[0,1].contourf(xvec, xvec, W_thermal, 100,cmap='RdBu',vmin=-0.1, vmax=0.1)
+lbl1 = axes[0,1].set_title(&quot;Thermal state&quot;)
+plt.colorbar(cont1,ax=axes[0,1])
+axes[0, 1].axis('equal')
+cont2 = axes[1,0].contourf(xvec, xvec, W_fock, 100,cmap='RdBu',vmin=-0.6, vmax=0.6)
+lbl2 = axes[1,0].set_title(&quot;Fock state&quot;)
+plt.colorbar(cont2,ax=axes[1,0])
+axes[1, 0].axis('equal')
+cont3 = axes[1,1].contourf(xvec, xvec, W_cat, 100,cmap='RdBu',vmin=-0.6, vmax=0.6)
+lbl3 = axes[1,1].set_title(&quot;Cat state&quot;)
+plt.colorbar(cont3,ax=axes[1,1])
+axes[1, 1].axis('equal')
+plt.show()
+</code></pre>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="png" srcset="
+               /media/output_7_0_hub2bf96781ececf7a6c10541e795be702_190596_63414ddd03fd0af1c44d3010b357eae9.png 400w,
+               /media/output_7_0_hub2bf96781ececf7a6c10541e795be702_190596_3029823f242d29071d16cd20f753483c.png 760w,
+               /media/output_7_0_hub2bf96781ececf7a6c10541e795be702_190596_1200x1200_fit_lanczos_3.png 1200w"
+               src="/media/output_7_0_hub2bf96781ececf7a6c10541e795be702_190596_63414ddd03fd0af1c44d3010b357eae9.png"
+               width="760"
+               height="607"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="husimi-q-function">Husimi Q-function</h2>
+<pre><code class="language-python">xvec = np.linspace(-5,5,200)
+Q_coherent = qfunc(rho_coherent, xvec, xvec, g = 2)
+Q_thermal = qfunc(rho_thermal, xvec, xvec,g = 2)
+Q_fock = qfunc(rho_fock, xvec, xvec, g = 2)
+Q_cat = qfunc(cat_state , xvec, xvec, g = 2)
+
+# plot the results
+
+fig, axes = plt.subplots(2, 2, figsize=(10,8),dpi=200)
+cont0 = axes[0,0].contourf(xvec, xvec, Q_coherent, 100,cmap='RdBu',vmin=-0.3, vmax=0.3)
+lbl0 = axes[0,0].set_title(&quot;Coherent state&quot;)
+plt.colorbar(cont0,ax=axes[0,0])
+axes[0, 0].axis('equal')
+axes[0, 0].set(xlim=(-5, 5), ylim=(-5, 5))
+cont1 = axes[0,1].contourf(xvec, xvec, Q_thermal, 100,cmap='RdBu',vmin=-0.08, vmax=0.08)
+lbl1 = axes[0,1].set_title(&quot;Thermal state&quot;)
+plt.colorbar(cont1,ax=axes[0,1])
+axes[0, 1].axis('equal')
+cont2 = axes[1,0].contourf(xvec, xvec, Q_fock, 100,cmap='RdBu',vmin=-0.08, vmax=0.08)
+lbl2 = axes[1,0].set_title(&quot;Fock state&quot;)
+plt.colorbar(cont2,ax=axes[1,0])
+axes[1, 0].axis('equal')
+cont3 = axes[1,1].contourf(xvec, xvec, Q_cat, 100,cmap='RdBu',vmin=-0.3, vmax=0.3)
+lbl3 = axes[1,1].set_title(&quot;Cat state&quot;)
+plt.colorbar(cont3,ax=axes[1,1])
+axes[1, 1].axis('equal')
+plt.show()
+</code></pre>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="png" srcset="
+               /media/output_9_0_hu26e4afbe0740f6cb7e68672adc57d6bb_215955_3186f682a9acaec39f651f1d1ce4c7fd.png 400w,
+               /media/output_9_0_hu26e4afbe0740f6cb7e68672adc57d6bb_215955_d59d053e5674281e1e349a9ca11d60ae.png 760w,
+               /media/output_9_0_hu26e4afbe0740f6cb7e68672adc57d6bb_215955_1200x1200_fit_lanczos_3.png 1200w"
+               src="/media/output_9_0_hu26e4afbe0740f6cb7e68672adc57d6bb_215955_3186f682a9acaec39f651f1d1ce4c7fd.png"
+               width="760"
+               height="602"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
           </div>
 
           
@@ -1092,15 +1222,9 @@ plt.show()
   
   <div class="post-nav-item">
     <div class="meta-nav">上一頁</div>
-    <a href="/courses/qo/ch1/harmonic_oscillator/" rel="next">Harmonic Ocsillator</a>
+    <a href="/courses/qo/ch1/plot_phase_states/" rel="next">Phase States</a>
   </div>
   
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">下一頁</div>
-    <a href="/courses/qo/ch1/phase_space_density/" rel="prev">PDF with Wigner and Q functions</a>
-  </div>
   
 </div>
 
@@ -1109,7 +1233,7 @@ plt.show()
         </div>
 
         <div class="body-footer">
-          <p>最近更新於 Jan, 2021</p>
+          <p>最近更新於 Apr, 2022</p>
 
           
 

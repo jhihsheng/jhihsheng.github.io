@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>📊 Introduction to Quantum Optics | Quantum Nano-Optics</title>
+    <title>Introduction to Quantum Optics | Quantum Nano-Optics</title>
     <link>https://jhihsheng.github.io/courses/qo/</link>
       <atom:link href="https://jhihsheng.github.io/courses/qo/index.xml" rel="self" type="application/rss+xml" />
-    <description>📊 Introduction to Quantum Optics</description>
+    <description>Introduction to Quantum Optics</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><copyright>© 2022 Jhih-Sheng Wu</copyright><lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png</url>
-      <title>📊 Introduction to Quantum Optics</title>
+      <title>Introduction to Quantum Optics</title>
       <link>https://jhihsheng.github.io/courses/qo/</link>
     </image>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>📊 Field Quantization | Quantum Nano-Optics</title>
+    <title>Field Quantization | Quantum Nano-Optics</title>
     <link>https://jhihsheng.github.io/courses/qo/ch1/</link>
       <atom:link href="https://jhihsheng.github.io/courses/qo/ch1/index.xml" rel="self" type="application/rss+xml" />
-    <description>📊 Field Quantization</description>
+    <description>Field Quantization</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><copyright>© 2022 Jhih-Sheng Wu</copyright><lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png</url>
-      <title>📊 Field Quantization</title>
+      <title>Field Quantization</title>
       <link>https://jhihsheng.github.io/courses/qo/ch1/</link>
     </image>
     
@@ -256,6 +256,196 @@ plt.show()
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;to-test-uploading-from-desktop&#34;&gt;To test uploading from desktop&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>PDF with Wigner and Q functions</title>
+      <link>https://jhihsheng.github.io/courses/qo/ch1/phase_space_density/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/courses/qo/ch1/phase_space_density/</guid>
+      <description>&lt;h2 id=&#34;visualization-of-quantum-states&#34;&gt;Visualization of quantum states&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from qutip import *
+from qutip.distributions import *
+import numpy as np
+import matplotlib.pyplot as plt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Any photonic state or ensemble can be expressed in the fock basis. For example, a state $\psi\rangle$  is
+$$|\psi \rangle =\sum_{n}c_n |n\rangle $$
+and an ensemble $\rho$ is
+$$ \rho =\sum_{m,n} \rho_{mn}|m\rangle\langle n| $$
+where $|n\rangle$ is the number state with $n$ photons. The number $n$ ranges from $0$ to $\infty$. However, in computation, $n$ can not reach $\infty$. We set a maximum value $N_{\mathrm {max}}$.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Nmax = 25 # the maximum number of the fock state
+rho_coherent = coherent_dm(Nmax, np.sqrt(4)) # create a coherent state with alpha = np.sqrrt(2)
+rho_thermal = thermal_dm(Nmax, 3) # create a thermal state with &amp;lt;N&amp;gt; = 3
+rho_fock = fock_dm(Nmax, 3) # create a fock state with n = 3
+alpha = 3 
+cat_state = coherent(Nmax,alpha) + coherent(Nmax,-alpha)
+rho_cat = cat_state * cat_state.dag()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;photon-number-counting&#34;&gt;photon number counting&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fig, axes = plt.subplots(1, 4, figsize=(15,3))
+# plot the coherent state
+bar0 = axes[0].bar(np.arange(0, Nmax), rho_coherent.diag())
+lbl0 = axes[0].set_title(&amp;quot;Coherent State&amp;quot;)
+lim0 = axes[0].set_xlim([-.5, Nmax])
+# plot the thermal state
+bar0 = axes[1].bar(np.arange(0, Nmax), rho_thermal.diag())
+lbl0 = axes[1].set_title(&amp;quot;Thermal State&amp;quot;)
+lim0 = axes[1].set_xlim([-.5, Nmax])
+# plot the fock state
+bar0 = axes[2].bar(np.arange(0, Nmax), rho_fock.diag())
+lbl0 = axes[2].set_title(&amp;quot;Fock State&amp;quot;)
+lim0 = axes[2].set_xlim([-.5, Nmax])
+# plot the cat state
+bar0 = axes[3].bar(np.arange(0, Nmax), rho_cat.diag())
+lbl0 = axes[3].set_title(&amp;quot;Cat State&amp;quot;)
+lim0 = axes[3].set_xlim([-.5, Nmax])
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /media/output_5_0_hu46dc33074bab283cd78fa13484c18d4c_10115_27e543fea8c0cbbe352a5a68bfd40f26.png 400w,
+               /media/output_5_0_hu46dc33074bab283cd78fa13484c18d4c_10115_effc05c746e9c77c7b5ee4a995c4af47.png 760w,
+               /media/output_5_0_hu46dc33074bab283cd78fa13484c18d4c_10115_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://jhihsheng.github.io/media/output_5_0_hu46dc33074bab283cd78fa13484c18d4c_10115_27e543fea8c0cbbe352a5a68bfd40f26.png&#34;
+               width=&#34;760&#34;
+               height=&#34;180&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;wigner-function&#34;&gt;Wigner function&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;xvec = np.linspace(-5,5,200)
+W_coherent = wigner(rho_coherent, xvec, xvec, g = 2) # g: scaling factor https://qutip.org/docs/latest/apidoc/functions.html#qutip.states.coherent
+W_thermal = wigner(rho_thermal, xvec, xvec, g = 2)
+W_fock = wigner(rho_fock, xvec, xvec, g = 2 )
+W_cat = wigner(cat_state , xvec, xvec, g = 2)
+
+# plot the results
+
+
+fig, axes = plt.subplots(2, 2, figsize=(10,8), dpi=200)
+cont0 = axes[0,0].contourf(xvec, xvec, W_coherent, 100,cmap=&#39;RdBu&#39;,vmin=-0.6, vmax=0.6)
+lbl0 = axes[0,0].set_title(&amp;quot;Coherent state&amp;quot;)
+plt.colorbar(cont0,ax=axes[0,0])
+axes[0, 0].axis(&#39;equal&#39;)
+#axes[0, 0].set(xlim=(-5, 5), ylim=(-5, 5))
+cont1 = axes[0,1].contourf(xvec, xvec, W_thermal, 100,cmap=&#39;RdBu&#39;,vmin=-0.1, vmax=0.1)
+lbl1 = axes[0,1].set_title(&amp;quot;Thermal state&amp;quot;)
+plt.colorbar(cont1,ax=axes[0,1])
+axes[0, 1].axis(&#39;equal&#39;)
+cont2 = axes[1,0].contourf(xvec, xvec, W_fock, 100,cmap=&#39;RdBu&#39;,vmin=-0.6, vmax=0.6)
+lbl2 = axes[1,0].set_title(&amp;quot;Fock state&amp;quot;)
+plt.colorbar(cont2,ax=axes[1,0])
+axes[1, 0].axis(&#39;equal&#39;)
+cont3 = axes[1,1].contourf(xvec, xvec, W_cat, 100,cmap=&#39;RdBu&#39;,vmin=-0.6, vmax=0.6)
+lbl3 = axes[1,1].set_title(&amp;quot;Cat state&amp;quot;)
+plt.colorbar(cont3,ax=axes[1,1])
+axes[1, 1].axis(&#39;equal&#39;)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /media/output_7_0_hub2bf96781ececf7a6c10541e795be702_190596_63414ddd03fd0af1c44d3010b357eae9.png 400w,
+               /media/output_7_0_hub2bf96781ececf7a6c10541e795be702_190596_3029823f242d29071d16cd20f753483c.png 760w,
+               /media/output_7_0_hub2bf96781ececf7a6c10541e795be702_190596_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://jhihsheng.github.io/media/output_7_0_hub2bf96781ececf7a6c10541e795be702_190596_63414ddd03fd0af1c44d3010b357eae9.png&#34;
+               width=&#34;760&#34;
+               height=&#34;607&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;husimi-q-function&#34;&gt;Husimi Q-function&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;xvec = np.linspace(-5,5,200)
+Q_coherent = qfunc(rho_coherent, xvec, xvec, g = 2)
+Q_thermal = qfunc(rho_thermal, xvec, xvec,g = 2)
+Q_fock = qfunc(rho_fock, xvec, xvec, g = 2)
+Q_cat = qfunc(cat_state , xvec, xvec, g = 2)
+
+# plot the results
+
+fig, axes = plt.subplots(2, 2, figsize=(10,8),dpi=200)
+cont0 = axes[0,0].contourf(xvec, xvec, Q_coherent, 100,cmap=&#39;RdBu&#39;,vmin=-0.3, vmax=0.3)
+lbl0 = axes[0,0].set_title(&amp;quot;Coherent state&amp;quot;)
+plt.colorbar(cont0,ax=axes[0,0])
+axes[0, 0].axis(&#39;equal&#39;)
+axes[0, 0].set(xlim=(-5, 5), ylim=(-5, 5))
+cont1 = axes[0,1].contourf(xvec, xvec, Q_thermal, 100,cmap=&#39;RdBu&#39;,vmin=-0.08, vmax=0.08)
+lbl1 = axes[0,1].set_title(&amp;quot;Thermal state&amp;quot;)
+plt.colorbar(cont1,ax=axes[0,1])
+axes[0, 1].axis(&#39;equal&#39;)
+cont2 = axes[1,0].contourf(xvec, xvec, Q_fock, 100,cmap=&#39;RdBu&#39;,vmin=-0.08, vmax=0.08)
+lbl2 = axes[1,0].set_title(&amp;quot;Fock state&amp;quot;)
+plt.colorbar(cont2,ax=axes[1,0])
+axes[1, 0].axis(&#39;equal&#39;)
+cont3 = axes[1,1].contourf(xvec, xvec, Q_cat, 100,cmap=&#39;RdBu&#39;,vmin=-0.3, vmax=0.3)
+lbl3 = axes[1,1].set_title(&amp;quot;Cat state&amp;quot;)
+plt.colorbar(cont3,ax=axes[1,1])
+axes[1, 1].axis(&#39;equal&#39;)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /media/output_9_0_hu26e4afbe0740f6cb7e68672adc57d6bb_215955_3186f682a9acaec39f651f1d1ce4c7fd.png 400w,
+               /media/output_9_0_hu26e4afbe0740f6cb7e68672adc57d6bb_215955_d59d053e5674281e1e349a9ca11d60ae.png 760w,
+               /media/output_9_0_hu26e4afbe0740f6cb7e68672adc57d6bb_215955_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://jhihsheng.github.io/media/output_9_0_hu26e4afbe0740f6cb7e68672adc57d6bb_215955_3186f682a9acaec39f651f1d1ce4c7fd.png&#34;
+               width=&#34;760&#34;
+               height=&#34;602&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
     </item>
     
   </channel>
