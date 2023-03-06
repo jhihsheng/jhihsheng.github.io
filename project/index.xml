@@ -5,7 +5,7 @@
     <link>https://jhihsheng.github.io/project/</link>
       <atom:link href="https://jhihsheng.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><copyright>© 2022 Jhih-Sheng Wu</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><copyright>© 2023 Jhih-Sheng Wu</copyright><lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,15 +13,290 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://jhihsheng.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jhihsheng.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>光子與電漿晶體的計算與模擬</title>
+      <link>https://jhihsheng.github.io/project/pc/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/project/pc/</guid>
+      <description>&lt;p&gt;在光學的研究與應用裡，如何控制光的流動是一個很基本的問題，常見的工具如透鏡、反射鏡、波導、偏振片、分光鏡、共振腔、光纖等。自從 1987 年後，科學家們從固態材料裡的電子能帶 (band structure)得到啟發，提出了光子晶體的概念，創造出光子能帶 (photonic band structure)，實現了光子的濾波元件。&lt;/p&gt;
+&lt;h3 id=&#34;光子晶體&#34;&gt;光子晶體&lt;/h3&gt;
+&lt;p&gt;光子晶體其實就是有週期結構的介電材料，也就是介電函數 $\epsilon$ 是一個位置的週期函數。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://jhihsheng.github.io/uploads/pc_1.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+根據 &lt;a href=&#34;https://en.wikipedia.org/wiki/Bloch%27s_theorem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bloch&amp;rsquo;s theorem&lt;/a&gt; 只要是週期的結構，就會造成能帶結構，底下是一個二維光子晶體的例子，
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://jhihsheng.github.io/uploads/pc_2.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+光子能隙也被用來製造各種光學元件，在90年代後有了更多實驗與商業上的使用。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://jhihsheng.github.io/uploads/pc_3.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;電漿晶體&#34;&gt;電漿晶體&lt;/h3&gt;
+&lt;p&gt;在2000年以後，大家開始研究縮小光學元件的可能性，其中一個方式就是使用奈米金屬結構來達到次波長的結構，到了2010年以後，週期性的奈米金屬結構得到了更多關注，
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://jhihsheng.github.io/uploads/pc_4.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+藉由金屬所提供的表面電漿共振 (surface plasmon resonance)， 光學元件得以縮小到奈米尺度。&lt;/p&gt;
+&lt;p&gt;在這個題目裡，你將學習到電磁學進階的理論與計算技巧，以這些知識來設計有趣與創新的光子晶體，而其中一個我們有興趣的題目是拓樸光子晶體。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;奈米光學理論&lt;/li&gt;
+&lt;li&gt;以 python 做數值計算&lt;/li&gt;
+&lt;li&gt;時域有限差分法 (FDTD) 來解電磁學問題 &lt;a href=&#34;https://meep.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MEEP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Analytical methods in EM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;參考資料：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://ab-initio.mit.edu/book/photonic-crystals-book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Photonic Crystals: Molding the Flow of Light &lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pubs.acs.org/doi/10.1021/acs.accounts.9b00312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plasmonic Surface Lattice Resonances: Theory and Computation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>量子光學理論研究</title>
+      <link>https://jhihsheng.github.io/project/qo/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/project/qo/</guid>
+      <description>&lt;p&gt;這個題目歡迎對理論有興趣、且喜歡挑戰性問題的學生，
+沒有相關的課程背景不是問題。
+當光的強度很小時，量子物理的奇特性質，開始主導光的特性。
+其中最特別的是量子力學裡的疊加與糾纏，擁有這些特性的光稱為量子光源。
+這樣的量子光源，與一般我們巨觀世界所知道的光有很不同的特性。
+這裡我們想探討量子發光源(quantum emitter)在光學結構裡的發光特性。目前有兩個子題目&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;量子發光源與溫度的關係&lt;/li&gt;
+&lt;li&gt;量子發光源與二維材料、光子晶體的作用&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;量子力學、量子光學&lt;/li&gt;
+&lt;li&gt;python 數值計算&lt;/li&gt;
+&lt;li&gt;量子動力學與數值模擬 &lt;a href=&#34;https://qutip.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qutip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://jhihsheng.github.io/uploads/cat_s.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+關於量子光學可參考，
+&lt;a href=&#34;https://jhihsheng.github.io/courses/qo/&#34;&gt;量子光學課程網頁&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>量子退火法優化光學元件設計</title>
+      <link>https://jhihsheng.github.io/project/qa/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/project/qa/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;目錄&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#模擬退火&#34;&gt;模擬退火&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#最佳化問題&#34;&gt;最佳化問題&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#量子退火&#34;&gt;量子退火&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;p&gt;量子退火法是一種運用量子位元的演算法，這樣的演算法可以解決許多最佳化的問題。使用量子位元的退火計算，對於量子位元的雜訊程度的要求相對較低，在目前的量子計算方法裡是相對容易實現的，因此受到許多大公司的關注。在這個題目裡，你將設計奈米光學元件，將光學問題轉成 Ising model 後使用量子退火法來優化設計。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ising model 的理論&lt;/li&gt;
+&lt;li&gt;以 python 寫量子退火演算法&lt;/li&gt;
+&lt;li&gt;使用 Amazon 雲端接觸真正的量子位元&lt;/li&gt;
+&lt;li&gt;以光學理論建構等物理模型，給出適當的物理參數以進行優化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;模擬退火&#34;&gt;模擬退火&lt;/h3&gt;
+&lt;p&gt;所謂的模擬退火 (simulated annealing) 是一種以電腦模擬固態系統加熱後降溫的過程，最常見的就是鐵磁性材料。如果鐵磁性材料有太多磁區而使磁化程度下降，可先加熱使之超過居禮溫度，因為熱擾動使磁區消失，電子自旋成無序狀態，而後使溫度緩緩降低，則自旋開始形成有序排列，形成一個完整的大磁區，因為這樣的狀態擁有最低的能量。這樣的過程，可以對應到物理學裡的
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Ising_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ising Model&lt;/a&gt;.
+$$H(\sigma) = - \sum_{\langle i~j\rangle} J_{ij}\sigma_i \sigma_j - h \sum_j \sigma_j.$$&lt;/p&gt;
+&lt;h3 id=&#34;最佳化問題&#34;&gt;最佳化問題&lt;/h3&gt;
+&lt;p&gt;許多重要的計算問題，其複雜度可能與資料的大小是指數關係，因此當處理較大資料時，即使使用最好的電腦也無法在合理的時間內給出答案。著名的問題有&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E6%97%85%E8%A1%8C%E6%8E%A8%E9%94%80%E5%91%98%E9%97%AE%E9%A2%98&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;旅行推銷員問題&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Protein_structure_prediction&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;蛋白質摺疊&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Job-shop_scheduling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;行程安排&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;許多工業上的設計也需要最佳化處理，例如光學元件設計、IC設計、深度學習等。&lt;/p&gt;
+&lt;h3 id=&#34;量子退火&#34;&gt;量子退火&lt;/h3&gt;
+&lt;p&gt;以量子位元模擬電子自旋。在退火演算法裡，很重要的是整個系統能夠快速地找到能量最低的狀態，在古典的電腦裡，這樣的過程是透過模擬熱擾動而達成。使用量子位元的好處，在於量子位元具有疊加與糾纏的量子特性，可以使得系統更容易達到最低的能量態。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://jhihsheng.github.io/uploads/q1.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>具有角動量的光</title>
+      <link>https://jhihsheng.github.io/project/cq/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://jhihsheng.github.io/project/cq/</guid>
+      <description>&lt;p&gt;一道光束的旋轉特性可分為軌道角動量(OAM)與自旋角動量(SAM)，相較於一般熟悉的平面光，這樣帶有角動量的光束，有更豐富的特性與應用潛力，例如這樣的角動量可用來實現光通訊裡的 Multiplexing，角動量也可用來當作量子位元的單位，因此如何操縱光的角動量是一個重要問題。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://jhihsheng.github.io/uploads/am.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+首先，我們想研究有角動量的光，在不同的光學元件裡，會如何變化，如何達到角動量的轉換。你將研究探索如何將這樣的系統微小化，且有效的控制角動量。你將進一步研究使用旋光來實現量子計算。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://jhihsheng.github.io/uploads/cqo.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+你將學習到&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;奈米光學的原理&lt;/li&gt;
+&lt;li&gt;時域有限差分法 (FDTD) 來解電磁學問題 &lt;a href=&#34;https://meep.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MEEP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Boundary element method&lt;/li&gt;
+&lt;li&gt;解析電磁學方法&lt;/li&gt;
+&lt;li&gt;以 python 做數值計算&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nature.com/articles/nature21037&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chiral Quantum Optics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Book: The angular momentum of light (2013 edited by David L. Andrews, Mohamed Babiker)&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
