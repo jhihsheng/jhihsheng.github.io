@@ -5,7 +5,7 @@
     <link>https://jhihsheng.github.io/courses/qo/</link>
       <atom:link href="https://jhihsheng.github.io/courses/qo/index.xml" rel="self" type="application/rss+xml" />
     <description>Introduction to Quantum Optics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><copyright>© 2024 Jhih-Sheng Wu</copyright><lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hant</language><copyright>© 2025 Jhih-Sheng Wu</copyright><lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jhihsheng.github.io/media/icon_hu1386fbeed7d8c69c6cc5197e05785de8_303108_512x512_fill_lanczos_center_3.png</url>
       <title>Introduction to Quantum Optics</title>
@@ -17,7 +17,49 @@
       <link>https://jhihsheng.github.io/courses/qo/old_notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jhihsheng.github.io/courses/qo/old_notes/</guid>
-      <description>&lt;h2 id=&#34;lecture-notes-in-2023&#34;&gt;Lecture Notes in 2023&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;lecture-notes-in-2024&#34;&gt;Lecture Notes in 2024&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;th&gt;2024&lt;/th&gt;
+&lt;th&gt;Latest update date&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;review of quantum mechanics&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jhihsheng.github.io/QO_2024/QO_note_1_review_QM.pdf&#34;&gt;QO_note_1&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Apr 2, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;field quantization&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jhihsheng.github.io/QO_2024/QO_note_2_field_quantization.pdf&#34;&gt;QO_note_2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Apr 2, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;coherent state and phase space descriptions&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jhihsheng.github.io/QO_2024/QO_note_3_coherent_state_and_phase_space_description.pdf&#34;&gt;QO_note_3&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Apr 16, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;light matter interaction&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jhihsheng.github.io/QO_2024/QO_note_4_light_matter_interaction.pdf&#34;&gt;QO_note_4&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Apr 16, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;correlation Functions and nonclassical light&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jhihsheng.github.io/QO_2024/QO_note_5_non-classical_light.pdf&#34;&gt;QO_note_5&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;May 1, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;optical components and measurements&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jhihsheng.github.io/QO_2024/QO_note_6_optical_components_and_measurement.pdf&#34;&gt;QO_note_6&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;May 29, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;lecture-notes-in-2023&#34;&gt;Lecture Notes in 2023&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
